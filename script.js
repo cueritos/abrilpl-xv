@@ -1,0 +1,1 @@
+const t=new Date("2026-07-31T19:00:00");setInterval(()=>{let d=t-new Date();if(d<0)return;let days=Math.floor(d/86400000);document.getElementById("count").textContent=days+" días";},1000);
